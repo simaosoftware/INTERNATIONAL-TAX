@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tax Calculator</title>
+</head>
+<body>
+	<h1>Tax Calculator</h1>
+	<form method="post">
+		<label for="type_of_worker">What type of worker are you?</label>
+		<select id="type_of_worker" name="type_of_worker">
+			<option value="employee">Employee</option>
+			<option value="contractor">Contractor</option>
+		</select>
+		<br><br>
+		<label for="deduct_expenses">Can you deduct pre-tax expenses?</label>
+		<select id="deduct_expenses" name="deduct_expenses">
+			<option value="no">No</option>
+			<option value="yes">Yes</option>
+		</select>
+		<br><br>
+		<label for="average_salary">What is your average salary/year?</label>
+		<input type="number" id="average_salary" name="average_salary" required>
+		<br><br>
+		<label for="main_tax_residency">Current tax resident of country?</label>
+		<select id="main_tax_residency" name="main_tax_residency">
+			<option value="United States">United States</option>
+			<option value="Portugal">Portugal</option>
+		</select>
+		<br><br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
