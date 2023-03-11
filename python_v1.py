@@ -94,5 +94,5 @@ tax_function = allowed_countries[main_tax_residency]
 taxes, ss = tax_function(average_salary, type_of_worker, deduct_expenses)
 
 # Printing all the inputs provided by the user
-print(f"Your local government pockets: {taxes} per year")
-print(f"Mismanaged pension funds get: {ss}")
+print(f"Your local government pockets: {taxes}/year")
+print(f"Mismanaged pension funds get: {ss}/year")
